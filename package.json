@@ -1,0 +1,20 @@
+{
+  "name": "heya-cli",
+  "version": "1.0.0",
+  "description": "Heya — Your local Oraculus CLI assistant for vibe coding.",
+  "main": "index.js",
+  "bin": {
+    "heya": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["cli", "ai", "gemini", "vibe", "coding", "oraculus"],
+  "author": "Untitled Folderr™ — Tuning creativity to wave Meaning.",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "gradient-string": "^2.0.1",
+    "@google/generative-ai": "^0.5.0"
+  }
+}
